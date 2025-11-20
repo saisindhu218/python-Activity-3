@@ -9,7 +9,7 @@ its **sensitivity to cluster density and imbalance**.
 
 Density-Aware K-Means improves clustering accuracy by adjusting centroid updates using **inverse-density weights**, enabling the algorithm to treat small and sparse clusters fairly.
 
----
+
 
 ## Why Standard K-Means Fails
 K-Means assumes:
@@ -24,7 +24,7 @@ Because of this, standard K-Means:
 
 These limitations reduce its performance on real-world datasets.
 
----
+
 
 ## Proposed Solution: Density-Aware K-Means
 To overcome these issues, this project modifies the centroid update rule.
@@ -40,7 +40,7 @@ This ensures:
 - Dense clusters do not dominate  
 - Centroids settle at more meaningful positions  
 
----
+
 
 ## Algorithm Workflow
 1. Initialize centroids randomly  
@@ -52,7 +52,7 @@ This ensures:
 
 This maintains the simplicity of K-Means while solving its weaknesses.
 
----
+
 
 ## Features Included in This Implementation
 - Full implementation of Density-Aware K-Means class  
@@ -62,7 +62,7 @@ This maintains the simplicity of K-Means while solving its weaknesses.
 - Elbow curve for Density-Aware K-Means  
 - Side-by-side comparison with standard K-Means  
 
----
+
 
 ## File Structure
 ```
@@ -73,7 +73,6 @@ This maintains the simplicity of K-Means while solving its weaknesses.
 
 ```
 
----
 
 ## Requirements
 Install required dependencies:
@@ -84,7 +83,7 @@ pip install numpy pandas matplotlib scikit-learn
 
 ```
 
----
+
 
 ## How to Run
 1. Open the Jupyter Notebook:
@@ -102,7 +101,6 @@ jupyter notebook density_aware_kmeans.ipynb
 
 3. Use your own dataset or any public dataset (e.g., Mall Customers).
 
----
 
 ## Results Summary
 - Standard K-Means shows centroid bias toward dense clusters  
@@ -112,7 +110,6 @@ jupyter notebook density_aware_kmeans.ipynb
 
 The performance improvement is especially noticeable on datasets with uneven density.
 
----
 
 ## Conclusion
 Density-Aware K-Means is a simple yet impactful modification to traditional K-Means.  
@@ -120,10 +117,8 @@ By incorporating density-based weighting, the algorithm becomes significantly mo
 
 This project demonstrates that even small enhancements to classical ML models can produce meaningful improvements.
 
----
 
 ## Author
 Rachabattuni Sai Sindhu, Reddy Akkamma Chandana, Sinchana H M 
 Master of Computer Applications  
 Density-Aware K-Means Mini Project
-```
